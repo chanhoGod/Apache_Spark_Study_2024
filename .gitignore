@@ -1,2 +1,36 @@
-.ipynb_checkpoints
-*/.ipynb_checkpoints/*
+# Spark checkpoint and temporary files
+checkpoint/
+spark-warehouse/
+metastore_db/
+derby.log
+chk/
+cassandra-persistence/
+kafka-persistence/
+transformed/
+spark_conf/
+streaming_output/
+output/
+sample/
+
+# Application logs and temp files
+*.log
+*.tmp
+
+# Spark cache directories (app~로 시작하는 파일/디렉토리 제외)
+app*
+
+# PySpark specific temp and output files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python virtual environment files
+venv/
+.env/
+*.egg-info/
+
+
+.gitignore
